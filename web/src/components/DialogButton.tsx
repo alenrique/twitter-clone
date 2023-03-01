@@ -11,7 +11,7 @@ export function DialogButton() {
         
         <Dialog.Portal>
           <Dialog.Overlay className="w-screen h-screen bg-black/80 fixed inset-0" />
-            <Dialog.Content className="absolute p-10 bg-[#15202b] rounded-2xl w-full max-w-md top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <Dialog.Content className="absolute p-10 bg-[#15202b] rounded-2xl w-full max-w-md top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-md:translate-y-7">
             <Dialog.Title className="text-3xl text-white font-extrabold" >
               Novo Tweet
             </Dialog.Title>

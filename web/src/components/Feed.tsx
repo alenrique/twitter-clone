@@ -19,7 +19,7 @@ export function Feed() {
     }, [])
 
     return (
-        <div className="max-w-2xl border-x border-white border-opacity-50 w-full h-[100vh]">
+        <div className="max-w-2xl border-x border-white border-opacity-50 w-full h-[100vh] max-md:h-auto">
             <div className="border-b border-white border-opacity-50">
                 <h1 className="p-4 text-white text-2xl font-semibold">Página Inicial</h1>
             </div>
