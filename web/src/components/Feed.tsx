@@ -23,7 +23,6 @@ export function Feed() {
             <div className="border-b border-white border-opacity-50">
                 <h1 className="p-4 text-white text-2xl font-semibold">Página Inicial</h1>
             </div>
-            <Tweet />
             {
                 tweets.map(tweet => (
                     <Tweet 

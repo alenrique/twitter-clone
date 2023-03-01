@@ -1,11 +1,11 @@
 import ImagemDePerfil from "../assets/imagemdeperfil.png"
 
 interface TweetProps {
-    text?: string;
-    username?: string;
+    text: string;
+    username: string;
 }
 
-export function Tweet({ text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio autem rerum blanditiis modi tenetur harum error accusantium enim in itaque placeat architecto voluptates possimus ut aperiam similique, aliquam molestiae repudiandae?", username = "Nome da Pessoa" }: TweetProps) {
+export function Tweet({ text, username }: TweetProps) {
     const user = "@" + username.split(' ').join('').toLowerCase()
 
     return (
